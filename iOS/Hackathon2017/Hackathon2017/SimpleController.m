@@ -28,8 +28,7 @@
 @property (nonatomic) BOOL lastJawclench;
 @property (nonatomic, strong) CBCentralManager * btManager;
 @property (atomic) BOOL btState;
-
-
+@property (nonatomic) NSMutableArray* mellow;
 @property (nonatomic, weak) BLEDevice *device; // weak - will be retained at lower level
 @end
 
@@ -38,7 +37,6 @@ bool eegDataSending = false;
 bool artifactDataSending = false;
 bool heartRateDataSending = false;
 bool httpDataSending = false;
-bool hueLightOn = false;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -68,14 +66,15 @@ bool hueLightOn = false;
         self.btManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
         self.btState = FALSE;
         
-        
+        self.mellow = [NSMutableArray array];
+
         _webSocketEeg.delegate = nil;
         _webSocketArtifact.delegate = nil;
         [_webSocketEeg close];
         [_webSocketArtifact close];
-        _webSocketEeg = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://wsproxyi337398trial.hanatrial.ondemand.com/hcpaddons/iotwebsocketproxy/external/muse/sensor"]];
-        _webSocketArtifact = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://wsproxyi337398trial.hanatrial.ondemand.com/hcpaddons/iotwebsocketproxy/external/muse/sensor2"]];
-        _webSocketHeartRate = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://wsproxyi337398trial.hanatrial.ondemand.com/hcpaddons/iotwebsocketproxy/external/muse/sensor3"]];
+        _webSocketEeg = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://wsproxy<account name>.hanatrial.ondemand.com/hcpaddons/iotwebsocketproxy/external/muse/sensor"]];
+        _webSocketArtifact = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://wsproxy<account name>.hanatrial.ondemand.com/hcpaddons/iotwebsocketproxy/external/muse/sensor2"]];
+        _webSocketHeartRate = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://wsproxy<account name>.hanatrial.ondemand.com/hcpaddons/iotwebsocketproxy/external/muse/sensor3"]];
         _webSocketEeg.delegate = self;
         _webSocketArtifact.delegate = self;
         _webSocketHeartRate.delegate = self;
@@ -188,9 +187,9 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.muse registerDataListener:self
                                type:IXNMuseDataPacketTypeArtifacts];
     
-    [self.muse registerDataListener:self type:IXNMuseDataPacketTypeAlphaScore];
+    //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeAlphaScore];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeAlphaAbsolute];
-    //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeAlphaRelative];
+    [self.muse registerDataListener:self type:IXNMuseDataPacketTypeAlphaRelative]; //for mellow state
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeBetaScore];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeBetaAbsolute];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeBetaRelative];
@@ -199,7 +198,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeDeltaRelative];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeGammaScore];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeGammaAbsolute];
-    //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeGammaRelative];
+    //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeGammaRelative]; //for concentration state
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeThetaScore];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeThetaAbsolute];
     //[self.muse registerDataListener:self type:IXNMuseDataPacketTypeThetaRelative];
@@ -217,7 +216,63 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     }else if (packet.packetType == IXNMuseDataPacketTypeAlphaAbsolute){
         type = @"alpha_absolute";
     }else if (packet.packetType == IXNMuseDataPacketTypeAlphaRelative){
-        type = @"alpha_relative";
+        //type = @"alpha_relative";
+        type = @"eeg";
+        if([self.mellow count] == 20){
+            double totalEeg1 = 0;
+            double totalEeg2 = 0;
+            double totalEeg3 = 0;
+            double totalEeg4 = 0;
+            for(NSArray<NSNumber *> *dataPacket in self.mellow){
+                totalEeg1 = totalEeg1 + [dataPacket[0] doubleValue];
+                totalEeg2 = totalEeg2 + [dataPacket[1] doubleValue];
+                totalEeg3 = totalEeg3 + [dataPacket[2] doubleValue];
+                totalEeg4 = totalEeg4 + [dataPacket[3] doubleValue];
+            }
+            
+            double averageEeg1 = totalEeg1 / 20;
+            double averageEeg2 = totalEeg2 / 20;
+            double averageEeg3 = totalEeg3 / 20;
+            double averageEeg4 = totalEeg4 / 20;
+            if(isnan(averageEeg1)){
+                averageEeg1 = 0;
+            }
+            if(isnan(averageEeg2)){
+                averageEeg2 = 0;
+            }
+            if(isnan(averageEeg3)){
+                averageEeg3 = 0;
+            }
+            if(isnan(averageEeg4)){
+                averageEeg4 = 0;
+            }
+            [self sendData:averageEeg1 eeg2:averageEeg2 eeg3:averageEeg3 eeg4:averageEeg4 type:type];
+            [self.mellow removeAllObjects];
+        }else{
+            NSMutableArray *array = [NSMutableArray array];
+            if(isnan([packet.values[IXNEegEEG1] doubleValue])){
+                [array addObject:[NSNumber numberWithInt:0]];
+            }else{
+                [array addObject:packet.values[IXNEegEEG1]];
+            }
+            if(isnan([packet.values[IXNEegEEG1] doubleValue])){
+                [array addObject:[NSNumber numberWithInt:0]];
+            }else{
+                [array addObject:packet.values[IXNEegEEG2]];
+            }
+            if(isnan([packet.values[IXNEegEEG1] doubleValue])){
+                [array addObject:[NSNumber numberWithInt:0]];
+            }else{
+                [array addObject:packet.values[IXNEegEEG3]];
+            }
+            if(isnan([packet.values[IXNEegEEG1] doubleValue])){
+                [array addObject:[NSNumber numberWithInt:0]];
+            }else{
+                [array addObject:packet.values[IXNEegEEG4]];
+            }
+            [self.mellow addObject:array];
+        }
+
     }else if (packet.packetType == IXNMuseDataPacketTypeBetaScore){
         type = @"beta_score";
     }else if (packet.packetType == IXNMuseDataPacketTypeBetaAbsolute){
@@ -248,7 +303,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSLog(@"Packet type is %@", type);
     
-    [self sendData:[packet.values[IXNEegEEG1] doubleValue] eeg2:[packet.values[IXNEegEEG2] doubleValue] eeg3:[packet.values[IXNEegEEG3] doubleValue] eeg4:[packet.values[IXNEegEEG4] doubleValue] type:type];
+//    [self sendData:[packet.values[IXNEegEEG1] doubleValue] eeg2:[packet.values[IXNEegEEG2] doubleValue] eeg3:[packet.values[IXNEegEEG3] doubleValue] eeg4:[packet.values[IXNEegEEG4] doubleValue] type:type];
 }
 
 - (void)receiveMuseArtifactPacket:(IXNMuseArtifactPacket *)packet
