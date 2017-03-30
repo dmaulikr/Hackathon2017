@@ -1,0 +1,3 @@
+target 'Hackathon2017' do
+  pod 'SocketRocket'
+end
