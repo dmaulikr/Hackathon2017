@@ -25,68 +25,37 @@
 		7B0A2F761E46853B003B0F60 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A2F6F1E46853B003B0F60 /* DDLog.m */; };
 		7B0A2F771E46853B003B0F60 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A2F711E46853B003B0F60 /* DDTTYLogger.m */; };
 		7B0A2F781E46853B003B0F60 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A2F721E46853B003B0F60 /* Extensions */; };
-		7BB3F4BE1E83C92E00E9DB64 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4671E83C92E00E9DB64 /* UserObject.m */; };
-		7BB3F4BF1E83C92E00E9DB64 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4671E83C92E00E9DB64 /* UserObject.m */; };
-		7BB3F4C01E83C92E00E9DB64 /* BLEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F46A1E83C92E00E9DB64 /* BLEWrapper.m */; };
-		7BB3F4C11E83C92E00E9DB64 /* BLEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F46A1E83C92E00E9DB64 /* BLEWrapper.m */; };
-		7BB3F4C21E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F46E1E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m */; };
-		7BB3F4C31E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F46E1E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m */; };
-		7BB3F4C41E83C92E00E9DB64 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4701E83C92E00E9DB64 /* BLEDevice.m */; };
-		7BB3F4C51E83C92E00E9DB64 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4701E83C92E00E9DB64 /* BLEDevice.m */; };
-		7BB3F4C61E83C92E00E9DB64 /* BLEDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4721E83C92E00E9DB64 /* BLEDataService.m */; };
-		7BB3F4C71E83C92E00E9DB64 /* BLEDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4721E83C92E00E9DB64 /* BLEDataService.m */; };
-		7BB3F4C81E83C92E00E9DB64 /* BLEDataReadCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4751E83C92E00E9DB64 /* BLEDataReadCharacteristic.m */; };
-		7BB3F4C91E83C92E00E9DB64 /* BLEDataReadCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4751E83C92E00E9DB64 /* BLEDataReadCharacteristic.m */; };
-		7BB3F4CA1E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4771E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m */; };
-		7BB3F4CB1E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4771E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m */; };
-		7BB3F4CC1E83C92E00E9DB64 /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F47C1E83C92E00E9DB64 /* BLEManager.m */; };
-		7BB3F4CD1E83C92E00E9DB64 /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F47C1E83C92E00E9DB64 /* BLEManager.m */; };
-		7BB3F4CE1E83C92E00E9DB64 /* BLEBaseCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F47F1E83C92E00E9DB64 /* BLEBaseCharacteristic.m */; };
-		7BB3F4CF1E83C92E00E9DB64 /* BLEBaseCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F47F1E83C92E00E9DB64 /* BLEBaseCharacteristic.m */; };
-		7BB3F4D01E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4821E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m */; };
-		7BB3F4D11E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4821E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m */; };
-		7BB3F4D21E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4841E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m */; };
-		7BB3F4D31E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4841E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m */; };
-		7BB3F4D41E83C92E00E9DB64 /* DayDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4871E83C92E00E9DB64 /* DayDetail.m */; };
-		7BB3F4D51E83C92E00E9DB64 /* DayDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4871E83C92E00E9DB64 /* DayDetail.m */; };
-		7BB3F4D61E83C92E00E9DB64 /* HourDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4891E83C92E00E9DB64 /* HourDetail.m */; };
-		7BB3F4D71E83C92E00E9DB64 /* HourDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4891E83C92E00E9DB64 /* HourDetail.m */; };
-		7BB3F4D81E83C92E00E9DB64 /* IntervalDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F48B1E83C92E00E9DB64 /* IntervalDetail.m */; };
-		7BB3F4D91E83C92E00E9DB64 /* IntervalDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F48B1E83C92E00E9DB64 /* IntervalDetail.m */; };
-		7BB3F4DA1E83C92E00E9DB64 /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4911E83C92E00E9DB64 /* SyncService.m */; };
-		7BB3F4DB1E83C92E00E9DB64 /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4911E83C92E00E9DB64 /* SyncService.m */; };
-		7BB3F4DC1E83C92E00E9DB64 /* NSArray+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4951E83C92E00E9DB64 /* NSArray+Filter.m */; };
-		7BB3F4DD1E83C92E00E9DB64 /* NSArray+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4951E83C92E00E9DB64 /* NSArray+Filter.m */; };
-		7BB3F4DE1E83C92E00E9DB64 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4981E83C92E00E9DB64 /* NSDate+Utilities.m */; };
-		7BB3F4DF1E83C92E00E9DB64 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4981E83C92E00E9DB64 /* NSDate+Utilities.m */; };
-		7BB3F4E01E83C92E00E9DB64 /* NSDateFormatter+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F49A1E83C92E00E9DB64 /* NSDateFormatter+Utilities.m */; };
-		7BB3F4E11E83C92E00E9DB64 /* NSDateFormatter+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F49A1E83C92E00E9DB64 /* NSDateFormatter+Utilities.m */; };
-		7BB3F4E21E83C92E00E9DB64 /* NSTimeZone+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F49C1E83C92E00E9DB64 /* NSTimeZone+Offset.m */; };
-		7BB3F4E31E83C92E00E9DB64 /* NSTimeZone+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F49C1E83C92E00E9DB64 /* NSTimeZone+Offset.m */; };
-		7BB3F4E41E83C92E00E9DB64 /* NSError+app.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F49F1E83C92E00E9DB64 /* NSError+app.m */; };
-		7BB3F4E51E83C92E00E9DB64 /* NSError+app.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F49F1E83C92E00E9DB64 /* NSError+app.m */; };
-		7BB3F4E61E83C92E00E9DB64 /* Configurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4A31E83C92E00E9DB64 /* Configurations.m */; };
-		7BB3F4E71E83C92E00E9DB64 /* Configurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4A31E83C92E00E9DB64 /* Configurations.m */; };
-		7BB3F4E81E83C92E00E9DB64 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4A61E83C92E00E9DB64 /* MSWeakTimer.m */; };
-		7BB3F4E91E83C92E00E9DB64 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4A61E83C92E00E9DB64 /* MSWeakTimer.m */; };
-		7BB3F4EA1E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4A91E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m */; };
-		7BB3F4EB1E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4A91E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m */; };
-		7BB3F4EC1E83C92E00E9DB64 /* YMS128.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4AA1E83C92E00E9DB64 /* YMS128.c */; };
-		7BB3F4ED1E83C92E00E9DB64 /* YMS128.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4AA1E83C92E00E9DB64 /* YMS128.c */; };
-		7BB3F4EE1E83C92E00E9DB64 /* YMSCBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4AD1E83C92E00E9DB64 /* YMSCBCentralManager.m */; };
-		7BB3F4EF1E83C92E00E9DB64 /* YMSCBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4AD1E83C92E00E9DB64 /* YMSCBCentralManager.m */; };
-		7BB3F4F01E83C92E00E9DB64 /* YMSCBCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4AF1E83C92E00E9DB64 /* YMSCBCharacteristic.m */; };
-		7BB3F4F11E83C92E00E9DB64 /* YMSCBCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4AF1E83C92E00E9DB64 /* YMSCBCharacteristic.m */; };
-		7BB3F4F21E83C92E00E9DB64 /* YMSCBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B11E83C92E00E9DB64 /* YMSCBDescriptor.m */; };
-		7BB3F4F31E83C92E00E9DB64 /* YMSCBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B11E83C92E00E9DB64 /* YMSCBDescriptor.m */; };
-		7BB3F4F41E83C92E00E9DB64 /* YMSCBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B41E83C92E00E9DB64 /* YMSCBPeripheral.m */; };
-		7BB3F4F51E83C92E00E9DB64 /* YMSCBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B41E83C92E00E9DB64 /* YMSCBPeripheral.m */; };
-		7BB3F4F61E83C92E00E9DB64 /* YMSCBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B61E83C92E00E9DB64 /* YMSCBService.m */; };
-		7BB3F4F71E83C92E00E9DB64 /* YMSCBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B61E83C92E00E9DB64 /* YMSCBService.m */; };
-		7BB3F4F81E83C92E00E9DB64 /* YMSCBStoredPeripherals.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B81E83C92E00E9DB64 /* YMSCBStoredPeripherals.m */; };
-		7BB3F4F91E83C92E00E9DB64 /* YMSCBStoredPeripherals.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4B81E83C92E00E9DB64 /* YMSCBStoredPeripherals.m */; };
-		7BB3F4FA1E83C92E00E9DB64 /* YMSCBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4BA1E83C92E00E9DB64 /* YMSCBUtils.m */; };
-		7BB3F4FB1E83C92E00E9DB64 /* YMSCBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3F4BA1E83C92E00E9DB64 /* YMSCBUtils.m */; };
+		7BC4F7D71E8EC51000049B50 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7801E8EC51000049B50 /* UserObject.m */; };
+		7BC4F7D81E8EC51000049B50 /* BLEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7841E8EC51000049B50 /* BLEWrapper.m */; };
+		7BC4F7D91E8EC51000049B50 /* BLEDevice+ReadWriteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7891E8EC51000049B50 /* BLEDevice+ReadWriteData.m */; };
+		7BC4F7DA1E8EC51000049B50 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F78B1E8EC51000049B50 /* BLEDevice.m */; };
+		7BC4F7DB1E8EC51000049B50 /* BLEDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F78E1E8EC51000049B50 /* BLEDataService.m */; };
+		7BC4F7DC1E8EC51000049B50 /* BLEDataReadCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7921E8EC51000049B50 /* BLEDataReadCharacteristic.m */; };
+		7BC4F7DD1E8EC51000049B50 /* BLEDataWriteCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7941E8EC51000049B50 /* BLEDataWriteCharacteristic.m */; };
+		7BC4F7DE1E8EC51000049B50 /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7971E8EC51000049B50 /* BLEManager.m */; };
+		7BC4F7DF1E8EC51000049B50 /* BLEBaseCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F79B1E8EC51000049B50 /* BLEBaseCharacteristic.m */; };
+		7BC4F7E01E8EC51000049B50 /* BLEDataServiceBlockLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F79E1E8EC51000049B50 /* BLEDataServiceBlockLinker.m */; };
+		7BC4F7E11E8EC51000049B50 /* BLEDataServiceNotifyLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7A01E8EC51000049B50 /* BLEDataServiceNotifyLinker.m */; };
+		7BC4F7E21E8EC51000049B50 /* DayDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7A41E8EC51000049B50 /* DayDetail.m */; };
+		7BC4F7E31E8EC51000049B50 /* HourDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7A61E8EC51000049B50 /* HourDetail.m */; };
+		7BC4F7E41E8EC51000049B50 /* IntervalDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7A81E8EC51000049B50 /* IntervalDetail.m */; };
+		7BC4F7E51E8EC51000049B50 /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7AC1E8EC51000049B50 /* SyncService.m */; };
+		7BC4F7E61E8EC51000049B50 /* NSArray+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7B11E8EC51000049B50 /* NSArray+Filter.m */; };
+		7BC4F7E71E8EC51000049B50 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7B41E8EC51000049B50 /* NSDate+Utilities.m */; };
+		7BC4F7E81E8EC51000049B50 /* NSDateFormatter+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7B61E8EC51000049B50 /* NSDateFormatter+Utilities.m */; };
+		7BC4F7E91E8EC51000049B50 /* NSTimeZone+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7B81E8EC51000049B50 /* NSTimeZone+Offset.m */; };
+		7BC4F7EA1E8EC51000049B50 /* NSError+app.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7BB1E8EC51000049B50 /* NSError+app.m */; };
+		7BC4F7EB1E8EC51000049B50 /* Configurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7BE1E8EC51000049B50 /* Configurations.m */; };
+		7BC4F7EC1E8EC51000049B50 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7C21E8EC51000049B50 /* MSWeakTimer.m */; };
+		7BC4F7ED1E8EC51000049B50 /* NSMutableArray+fifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7C51E8EC51000049B50 /* NSMutableArray+fifoQueue.m */; };
+		7BC4F7EE1E8EC51000049B50 /* YMS128.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7C61E8EC51000049B50 /* YMS128.c */; };
+		7BC4F7EF1E8EC51000049B50 /* YMSCBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7C91E8EC51000049B50 /* YMSCBCentralManager.m */; };
+		7BC4F7F01E8EC51000049B50 /* YMSCBCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7CB1E8EC51000049B50 /* YMSCBCharacteristic.m */; };
+		7BC4F7F11E8EC51000049B50 /* YMSCBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7CD1E8EC51000049B50 /* YMSCBDescriptor.m */; };
+		7BC4F7F21E8EC51000049B50 /* YMSCBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7D01E8EC51000049B50 /* YMSCBPeripheral.m */; };
+		7BC4F7F31E8EC51000049B50 /* YMSCBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7D21E8EC51000049B50 /* YMSCBService.m */; };
+		7BC4F7F41E8EC51000049B50 /* YMSCBStoredPeripherals.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7D41E8EC51000049B50 /* YMSCBStoredPeripherals.m */; };
+		7BC4F7F51E8EC51000049B50 /* YMSCBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4F7D61E8EC51000049B50 /* YMSCBUtils.m */; };
 		E64B91DE2900719B8E2B51B2 /* libPods-Hackathon2017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F869771C31EF6FB1B9A5003B /* libPods-Hackathon2017.a */; };
 /* End PBXBuildFile section */
 
@@ -131,72 +100,72 @@
 		7B0A2F701E46853B003B0F60 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
 		7B0A2F711E46853B003B0F60 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
 		7B0A2F721E46853B003B0F60 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
-		7BB3F4661E83C92E00E9DB64 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
-		7BB3F4671E83C92E00E9DB64 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
-		7BB3F4691E83C92E00E9DB64 /* BLEWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEWrapper.h; sourceTree = "<group>"; };
-		7BB3F46A1E83C92E00E9DB64 /* BLEWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEWrapper.m; sourceTree = "<group>"; };
-		7BB3F46B1E83C92E00E9DB64 /* BLEDevice+ConnectionStatusEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEDevice+ConnectionStatusEnum.h"; sourceTree = "<group>"; };
-		7BB3F46C1E83C92E00E9DB64 /* BLEDevice+ReadWriteData+Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEDevice+ReadWriteData+Enum.h"; sourceTree = "<group>"; };
-		7BB3F46D1E83C92E00E9DB64 /* BLEDevice+ReadWriteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEDevice+ReadWriteData.h"; sourceTree = "<group>"; };
-		7BB3F46E1E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLEDevice+ReadWriteData.m"; sourceTree = "<group>"; };
-		7BB3F46F1E83C92E00E9DB64 /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
-		7BB3F4701E83C92E00E9DB64 /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
-		7BB3F4711E83C92E00E9DB64 /* BLEDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataService.h; sourceTree = "<group>"; };
-		7BB3F4721E83C92E00E9DB64 /* BLEDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataService.m; sourceTree = "<group>"; };
-		7BB3F4731E83C92E00E9DB64 /* BLE_Byte_Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE_Byte_Offset.h; sourceTree = "<group>"; };
-		7BB3F4741E83C92E00E9DB64 /* BLEDataReadCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataReadCharacteristic.h; sourceTree = "<group>"; };
-		7BB3F4751E83C92E00E9DB64 /* BLEDataReadCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataReadCharacteristic.m; sourceTree = "<group>"; };
-		7BB3F4761E83C92E00E9DB64 /* BLEDataWriteCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataWriteCharacteristic.h; sourceTree = "<group>"; };
-		7BB3F4771E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataWriteCharacteristic.m; sourceTree = "<group>"; };
-		7BB3F47B1E83C92E00E9DB64 /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
-		7BB3F47C1E83C92E00E9DB64 /* BLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
-		7BB3F47E1E83C92E00E9DB64 /* BLEBaseCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBaseCharacteristic.h; sourceTree = "<group>"; };
-		7BB3F47F1E83C92E00E9DB64 /* BLEBaseCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBaseCharacteristic.m; sourceTree = "<group>"; };
-		7BB3F4811E83C92E00E9DB64 /* BLEDataServiceBlockLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataServiceBlockLinker.h; sourceTree = "<group>"; };
-		7BB3F4821E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataServiceBlockLinker.m; sourceTree = "<group>"; };
-		7BB3F4831E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataServiceNotifyLinker.h; sourceTree = "<group>"; };
-		7BB3F4841E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataServiceNotifyLinker.m; sourceTree = "<group>"; };
-		7BB3F4861E83C92E00E9DB64 /* DayDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetail.h; sourceTree = "<group>"; };
-		7BB3F4871E83C92E00E9DB64 /* DayDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetail.m; sourceTree = "<group>"; };
-		7BB3F4881E83C92E00E9DB64 /* HourDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourDetail.h; sourceTree = "<group>"; };
-		7BB3F4891E83C92E00E9DB64 /* HourDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourDetail.m; sourceTree = "<group>"; };
-		7BB3F48A1E83C92E00E9DB64 /* IntervalDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntervalDetail.h; sourceTree = "<group>"; };
-		7BB3F48B1E83C92E00E9DB64 /* IntervalDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntervalDetail.m; sourceTree = "<group>"; };
-		7BB3F4901E83C92E00E9DB64 /* SyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncService.h; sourceTree = "<group>"; };
-		7BB3F4911E83C92E00E9DB64 /* SyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncService.m; sourceTree = "<group>"; };
-		7BB3F4941E83C92E00E9DB64 /* NSArray+Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Filter.h"; sourceTree = "<group>"; };
-		7BB3F4951E83C92E00E9DB64 /* NSArray+Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Filter.m"; sourceTree = "<group>"; };
-		7BB3F4971E83C92E00E9DB64 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
-		7BB3F4981E83C92E00E9DB64 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
-		7BB3F4991E83C92E00E9DB64 /* NSDateFormatter+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Utilities.h"; sourceTree = "<group>"; };
-		7BB3F49A1E83C92E00E9DB64 /* NSDateFormatter+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Utilities.m"; sourceTree = "<group>"; };
-		7BB3F49B1E83C92E00E9DB64 /* NSTimeZone+Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+Offset.h"; sourceTree = "<group>"; };
-		7BB3F49C1E83C92E00E9DB64 /* NSTimeZone+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+Offset.m"; sourceTree = "<group>"; };
-		7BB3F49E1E83C92E00E9DB64 /* NSError+app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+app.h"; sourceTree = "<group>"; };
-		7BB3F49F1E83C92E00E9DB64 /* NSError+app.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+app.m"; sourceTree = "<group>"; };
-		7BB3F4A21E83C92E00E9DB64 /* Configurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configurations.h; sourceTree = "<group>"; };
-		7BB3F4A31E83C92E00E9DB64 /* Configurations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configurations.m; sourceTree = "<group>"; };
-		7BB3F4A51E83C92E00E9DB64 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
-		7BB3F4A61E83C92E00E9DB64 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
-		7BB3F4A81E83C92E00E9DB64 /* NSMutableArray+fifoQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+fifoQueue.h"; sourceTree = "<group>"; };
-		7BB3F4A91E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+fifoQueue.m"; sourceTree = "<group>"; };
-		7BB3F4AA1E83C92E00E9DB64 /* YMS128.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YMS128.c; sourceTree = "<group>"; };
-		7BB3F4AB1E83C92E00E9DB64 /* YMS128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMS128.h; sourceTree = "<group>"; };
-		7BB3F4AC1E83C92E00E9DB64 /* YMSCBCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBCentralManager.h; sourceTree = "<group>"; };
-		7BB3F4AD1E83C92E00E9DB64 /* YMSCBCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBCentralManager.m; sourceTree = "<group>"; };
-		7BB3F4AE1E83C92E00E9DB64 /* YMSCBCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBCharacteristic.h; sourceTree = "<group>"; };
-		7BB3F4AF1E83C92E00E9DB64 /* YMSCBCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBCharacteristic.m; sourceTree = "<group>"; };
-		7BB3F4B01E83C92E00E9DB64 /* YMSCBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBDescriptor.h; sourceTree = "<group>"; };
-		7BB3F4B11E83C92E00E9DB64 /* YMSCBDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBDescriptor.m; sourceTree = "<group>"; };
-		7BB3F4B21E83C92E00E9DB64 /* YMSCBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBLE.h; sourceTree = "<group>"; };
-		7BB3F4B31E83C92E00E9DB64 /* YMSCBPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBPeripheral.h; sourceTree = "<group>"; };
-		7BB3F4B41E83C92E00E9DB64 /* YMSCBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBPeripheral.m; sourceTree = "<group>"; };
-		7BB3F4B51E83C92E00E9DB64 /* YMSCBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBService.h; sourceTree = "<group>"; };
-		7BB3F4B61E83C92E00E9DB64 /* YMSCBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBService.m; sourceTree = "<group>"; };
-		7BB3F4B71E83C92E00E9DB64 /* YMSCBStoredPeripherals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBStoredPeripherals.h; sourceTree = "<group>"; };
-		7BB3F4B81E83C92E00E9DB64 /* YMSCBStoredPeripherals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBStoredPeripherals.m; sourceTree = "<group>"; };
-		7BB3F4B91E83C92E00E9DB64 /* YMSCBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBUtils.h; sourceTree = "<group>"; };
-		7BB3F4BA1E83C92E00E9DB64 /* YMSCBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBUtils.m; sourceTree = "<group>"; };
+		7BC4F77F1E8EC51000049B50 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
+		7BC4F7801E8EC51000049B50 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
+		7BC4F7831E8EC51000049B50 /* BLEWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEWrapper.h; sourceTree = "<group>"; };
+		7BC4F7841E8EC51000049B50 /* BLEWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEWrapper.m; sourceTree = "<group>"; };
+		7BC4F7861E8EC51000049B50 /* BLEDevice+ConnectionStatusEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEDevice+ConnectionStatusEnum.h"; sourceTree = "<group>"; };
+		7BC4F7871E8EC51000049B50 /* BLEDevice+ReadWriteData+Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEDevice+ReadWriteData+Enum.h"; sourceTree = "<group>"; };
+		7BC4F7881E8EC51000049B50 /* BLEDevice+ReadWriteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEDevice+ReadWriteData.h"; sourceTree = "<group>"; };
+		7BC4F7891E8EC51000049B50 /* BLEDevice+ReadWriteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLEDevice+ReadWriteData.m"; sourceTree = "<group>"; };
+		7BC4F78A1E8EC51000049B50 /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		7BC4F78B1E8EC51000049B50 /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		7BC4F78D1E8EC51000049B50 /* BLEDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataService.h; sourceTree = "<group>"; };
+		7BC4F78E1E8EC51000049B50 /* BLEDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataService.m; sourceTree = "<group>"; };
+		7BC4F7901E8EC51000049B50 /* BLE_Byte_Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE_Byte_Offset.h; sourceTree = "<group>"; };
+		7BC4F7911E8EC51000049B50 /* BLEDataReadCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataReadCharacteristic.h; sourceTree = "<group>"; };
+		7BC4F7921E8EC51000049B50 /* BLEDataReadCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataReadCharacteristic.m; sourceTree = "<group>"; };
+		7BC4F7931E8EC51000049B50 /* BLEDataWriteCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataWriteCharacteristic.h; sourceTree = "<group>"; };
+		7BC4F7941E8EC51000049B50 /* BLEDataWriteCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataWriteCharacteristic.m; sourceTree = "<group>"; };
+		7BC4F7961E8EC51000049B50 /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		7BC4F7971E8EC51000049B50 /* BLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
+		7BC4F79A1E8EC51000049B50 /* BLEBaseCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBaseCharacteristic.h; sourceTree = "<group>"; };
+		7BC4F79B1E8EC51000049B50 /* BLEBaseCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBaseCharacteristic.m; sourceTree = "<group>"; };
+		7BC4F79D1E8EC51000049B50 /* BLEDataServiceBlockLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataServiceBlockLinker.h; sourceTree = "<group>"; };
+		7BC4F79E1E8EC51000049B50 /* BLEDataServiceBlockLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataServiceBlockLinker.m; sourceTree = "<group>"; };
+		7BC4F79F1E8EC51000049B50 /* BLEDataServiceNotifyLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDataServiceNotifyLinker.h; sourceTree = "<group>"; };
+		7BC4F7A01E8EC51000049B50 /* BLEDataServiceNotifyLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDataServiceNotifyLinker.m; sourceTree = "<group>"; };
+		7BC4F7A31E8EC51000049B50 /* DayDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetail.h; sourceTree = "<group>"; };
+		7BC4F7A41E8EC51000049B50 /* DayDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetail.m; sourceTree = "<group>"; };
+		7BC4F7A51E8EC51000049B50 /* HourDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourDetail.h; sourceTree = "<group>"; };
+		7BC4F7A61E8EC51000049B50 /* HourDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourDetail.m; sourceTree = "<group>"; };
+		7BC4F7A71E8EC51000049B50 /* IntervalDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntervalDetail.h; sourceTree = "<group>"; };
+		7BC4F7A81E8EC51000049B50 /* IntervalDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntervalDetail.m; sourceTree = "<group>"; };
+		7BC4F7AB1E8EC51000049B50 /* SyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncService.h; sourceTree = "<group>"; };
+		7BC4F7AC1E8EC51000049B50 /* SyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncService.m; sourceTree = "<group>"; };
+		7BC4F7B01E8EC51000049B50 /* NSArray+Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Filter.h"; sourceTree = "<group>"; };
+		7BC4F7B11E8EC51000049B50 /* NSArray+Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Filter.m"; sourceTree = "<group>"; };
+		7BC4F7B31E8EC51000049B50 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		7BC4F7B41E8EC51000049B50 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		7BC4F7B51E8EC51000049B50 /* NSDateFormatter+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Utilities.h"; sourceTree = "<group>"; };
+		7BC4F7B61E8EC51000049B50 /* NSDateFormatter+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Utilities.m"; sourceTree = "<group>"; };
+		7BC4F7B71E8EC51000049B50 /* NSTimeZone+Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+Offset.h"; sourceTree = "<group>"; };
+		7BC4F7B81E8EC51000049B50 /* NSTimeZone+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+Offset.m"; sourceTree = "<group>"; };
+		7BC4F7BA1E8EC51000049B50 /* NSError+app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+app.h"; sourceTree = "<group>"; };
+		7BC4F7BB1E8EC51000049B50 /* NSError+app.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+app.m"; sourceTree = "<group>"; };
+		7BC4F7BD1E8EC51000049B50 /* Configurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configurations.h; sourceTree = "<group>"; };
+		7BC4F7BE1E8EC51000049B50 /* Configurations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configurations.m; sourceTree = "<group>"; };
+		7BC4F7C11E8EC51000049B50 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		7BC4F7C21E8EC51000049B50 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		7BC4F7C41E8EC51000049B50 /* NSMutableArray+fifoQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+fifoQueue.h"; sourceTree = "<group>"; };
+		7BC4F7C51E8EC51000049B50 /* NSMutableArray+fifoQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+fifoQueue.m"; sourceTree = "<group>"; };
+		7BC4F7C61E8EC51000049B50 /* YMS128.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YMS128.c; sourceTree = "<group>"; };
+		7BC4F7C71E8EC51000049B50 /* YMS128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMS128.h; sourceTree = "<group>"; };
+		7BC4F7C81E8EC51000049B50 /* YMSCBCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBCentralManager.h; sourceTree = "<group>"; };
+		7BC4F7C91E8EC51000049B50 /* YMSCBCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBCentralManager.m; sourceTree = "<group>"; };
+		7BC4F7CA1E8EC51000049B50 /* YMSCBCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBCharacteristic.h; sourceTree = "<group>"; };
+		7BC4F7CB1E8EC51000049B50 /* YMSCBCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBCharacteristic.m; sourceTree = "<group>"; };
+		7BC4F7CC1E8EC51000049B50 /* YMSCBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBDescriptor.h; sourceTree = "<group>"; };
+		7BC4F7CD1E8EC51000049B50 /* YMSCBDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBDescriptor.m; sourceTree = "<group>"; };
+		7BC4F7CE1E8EC51000049B50 /* YMSCBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBLE.h; sourceTree = "<group>"; };
+		7BC4F7CF1E8EC51000049B50 /* YMSCBPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBPeripheral.h; sourceTree = "<group>"; };
+		7BC4F7D01E8EC51000049B50 /* YMSCBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBPeripheral.m; sourceTree = "<group>"; };
+		7BC4F7D11E8EC51000049B50 /* YMSCBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBService.h; sourceTree = "<group>"; };
+		7BC4F7D21E8EC51000049B50 /* YMSCBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBService.m; sourceTree = "<group>"; };
+		7BC4F7D31E8EC51000049B50 /* YMSCBStoredPeripherals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBStoredPeripherals.h; sourceTree = "<group>"; };
+		7BC4F7D41E8EC51000049B50 /* YMSCBStoredPeripherals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBStoredPeripherals.m; sourceTree = "<group>"; };
+		7BC4F7D51E8EC51000049B50 /* YMSCBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSCBUtils.h; sourceTree = "<group>"; };
+		7BC4F7D61E8EC51000049B50 /* YMSCBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSCBUtils.m; sourceTree = "<group>"; };
 		C09DE2F4F0E6C1DA9FAFA98D /* Pods-Hackathon2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon2017/Pods-Hackathon2017.release.xcconfig"; sourceTree = "<group>"; };
 		F869771C31EF6FB1B9A5003B /* libPods-Hackathon2017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hackathon2017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -259,9 +228,9 @@
 		5401E01A1A93DA2600FADC22 /* Hackathon2017 */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4681E83C92E00E9DB64 /* Objects */,
-				7BB3F4931E83C92E00E9DB64 /* Services */,
-				7BB3F4BD1E83C92E00E9DB64 /* Support */,
+				7BC4F77E1E8EC51000049B50 /* Objects */,
+				7BC4F7811E8EC51000049B50 /* Services */,
+				7BC4F7AD1E8EC51000049B50 /* Support */,
 				7B0A2F681E46853B003B0F60 /* DDAbstractDatabaseLogger.h */,
 				7B0A2F691E46853B003B0F60 /* DDAbstractDatabaseLogger.m */,
 				7B0A2F6A1E46853B003B0F60 /* DDASLLogger.h */,
@@ -283,7 +252,6 @@
 				5401E02A1A93DA2600FADC22 /* LaunchScreen.xib */,
 				5401E01B1A93DA2600FADC22 /* Supporting Files */,
 			);
-			name = Hackathon2017;
 			path = Hackathon2017;
 			sourceTree = "<group>";
 		};
@@ -302,7 +270,6 @@
 				5401E0371A93DA2600FADC22 /* Hackathon2017Tests.m */,
 				5401E0351A93DA2600FADC22 /* Supporting Files */,
 			);
-			name = Hackathon2017Tests;
 			path = Hackathon2017Tests;
 			sourceTree = "<group>";
 		};
@@ -314,246 +281,251 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7BB3F4681E83C92E00E9DB64 /* Objects */ = {
+		7BC4F77E1E8EC51000049B50 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4661E83C92E00E9DB64 /* UserObject.h */,
-				7BB3F4671E83C92E00E9DB64 /* UserObject.m */,
-			);
-			name = Objects;
-			path = ../../../../../../xcodeworkspace/B_IMLHeartRate/IMLHeartRate/Objects;
-			sourceTree = "<group>";
-		};
-		7BB3F4781E83C92E00E9DB64 /* Characteristics */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4731E83C92E00E9DB64 /* BLE_Byte_Offset.h */,
-				7BB3F4741E83C92E00E9DB64 /* BLEDataReadCharacteristic.h */,
-				7BB3F4751E83C92E00E9DB64 /* BLEDataReadCharacteristic.m */,
-				7BB3F4761E83C92E00E9DB64 /* BLEDataWriteCharacteristic.h */,
-				7BB3F4771E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m */,
-			);
-			path = Characteristics;
-			sourceTree = "<group>";
-		};
-		7BB3F4791E83C92E00E9DB64 /* DataService */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4711E83C92E00E9DB64 /* BLEDataService.h */,
-				7BB3F4721E83C92E00E9DB64 /* BLEDataService.m */,
-				7BB3F4781E83C92E00E9DB64 /* Characteristics */,
-			);
-			path = DataService;
-			sourceTree = "<group>";
-		};
-		7BB3F47A1E83C92E00E9DB64 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F46B1E83C92E00E9DB64 /* BLEDevice+ConnectionStatusEnum.h */,
-				7BB3F46C1E83C92E00E9DB64 /* BLEDevice+ReadWriteData+Enum.h */,
-				7BB3F46D1E83C92E00E9DB64 /* BLEDevice+ReadWriteData.h */,
-				7BB3F46E1E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m */,
-				7BB3F46F1E83C92E00E9DB64 /* BLEDevice.h */,
-				7BB3F4701E83C92E00E9DB64 /* BLEDevice.m */,
-				7BB3F4791E83C92E00E9DB64 /* DataService */,
-			);
-			path = Device;
-			sourceTree = "<group>";
-		};
-		7BB3F47D1E83C92E00E9DB64 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F47B1E83C92E00E9DB64 /* BLEManager.h */,
-				7BB3F47C1E83C92E00E9DB64 /* BLEManager.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		7BB3F4801E83C92E00E9DB64 /* BaseCharacteristic */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F47E1E83C92E00E9DB64 /* BLEBaseCharacteristic.h */,
-				7BB3F47F1E83C92E00E9DB64 /* BLEBaseCharacteristic.m */,
-			);
-			path = BaseCharacteristic;
-			sourceTree = "<group>";
-		};
-		7BB3F4851E83C92E00E9DB64 /* BlockLinker */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4811E83C92E00E9DB64 /* BLEDataServiceBlockLinker.h */,
-				7BB3F4821E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m */,
-				7BB3F4831E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.h */,
-				7BB3F4841E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m */,
-			);
-			path = BlockLinker;
-			sourceTree = "<group>";
-		};
-		7BB3F48C1E83C92E00E9DB64 /* DayDetail */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4861E83C92E00E9DB64 /* DayDetail.h */,
-				7BB3F4871E83C92E00E9DB64 /* DayDetail.m */,
-				7BB3F4881E83C92E00E9DB64 /* HourDetail.h */,
-				7BB3F4891E83C92E00E9DB64 /* HourDetail.m */,
-				7BB3F48A1E83C92E00E9DB64 /* IntervalDetail.h */,
-				7BB3F48B1E83C92E00E9DB64 /* IntervalDetail.m */,
-			);
-			path = DayDetail;
-			sourceTree = "<group>";
-		};
-		7BB3F48D1E83C92E00E9DB64 /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F48C1E83C92E00E9DB64 /* DayDetail */,
+				7BC4F77F1E8EC51000049B50 /* UserObject.h */,
+				7BC4F7801E8EC51000049B50 /* UserObject.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
 		};
-		7BB3F48E1E83C92E00E9DB64 /* Support */ = {
+		7BC4F7811E8EC51000049B50 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4801E83C92E00E9DB64 /* BaseCharacteristic */,
-				7BB3F4851E83C92E00E9DB64 /* BlockLinker */,
-				7BB3F48D1E83C92E00E9DB64 /* Objects */,
+				7BC4F7821E8EC51000049B50 /* BLE */,
+				7BC4F7A91E8EC51000049B50 /* NetService */,
+				7BC4F7AA1E8EC51000049B50 /* SyncService */,
 			);
-			path = Support;
+			path = Services;
 			sourceTree = "<group>";
 		};
-		7BB3F48F1E83C92E00E9DB64 /* BLE */ = {
+		7BC4F7821E8EC51000049B50 /* BLE */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4691E83C92E00E9DB64 /* BLEWrapper.h */,
-				7BB3F46A1E83C92E00E9DB64 /* BLEWrapper.m */,
-				7BB3F47A1E83C92E00E9DB64 /* Device */,
-				7BB3F47D1E83C92E00E9DB64 /* Manager */,
-				7BB3F48E1E83C92E00E9DB64 /* Support */,
+				7BC4F7831E8EC51000049B50 /* BLEWrapper.h */,
+				7BC4F7841E8EC51000049B50 /* BLEWrapper.m */,
+				7BC4F7851E8EC51000049B50 /* Device */,
+				7BC4F7951E8EC51000049B50 /* Manager */,
+				7BC4F7981E8EC51000049B50 /* Support */,
 			);
 			path = BLE;
 			sourceTree = "<group>";
 		};
-		7BB3F4921E83C92E00E9DB64 /* SyncService */ = {
+		7BC4F7851E8EC51000049B50 /* Device */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4901E83C92E00E9DB64 /* SyncService.h */,
-				7BB3F4911E83C92E00E9DB64 /* SyncService.m */,
+				7BC4F7861E8EC51000049B50 /* BLEDevice+ConnectionStatusEnum.h */,
+				7BC4F7871E8EC51000049B50 /* BLEDevice+ReadWriteData+Enum.h */,
+				7BC4F7881E8EC51000049B50 /* BLEDevice+ReadWriteData.h */,
+				7BC4F7891E8EC51000049B50 /* BLEDevice+ReadWriteData.m */,
+				7BC4F78A1E8EC51000049B50 /* BLEDevice.h */,
+				7BC4F78B1E8EC51000049B50 /* BLEDevice.m */,
+				7BC4F78C1E8EC51000049B50 /* DataService */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		7BC4F78C1E8EC51000049B50 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F78D1E8EC51000049B50 /* BLEDataService.h */,
+				7BC4F78E1E8EC51000049B50 /* BLEDataService.m */,
+				7BC4F78F1E8EC51000049B50 /* Characteristics */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		7BC4F78F1E8EC51000049B50 /* Characteristics */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7901E8EC51000049B50 /* BLE_Byte_Offset.h */,
+				7BC4F7911E8EC51000049B50 /* BLEDataReadCharacteristic.h */,
+				7BC4F7921E8EC51000049B50 /* BLEDataReadCharacteristic.m */,
+				7BC4F7931E8EC51000049B50 /* BLEDataWriteCharacteristic.h */,
+				7BC4F7941E8EC51000049B50 /* BLEDataWriteCharacteristic.m */,
+			);
+			path = Characteristics;
+			sourceTree = "<group>";
+		};
+		7BC4F7951E8EC51000049B50 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7961E8EC51000049B50 /* BLEManager.h */,
+				7BC4F7971E8EC51000049B50 /* BLEManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7BC4F7981E8EC51000049B50 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7991E8EC51000049B50 /* BaseCharacteristic */,
+				7BC4F79C1E8EC51000049B50 /* BlockLinker */,
+				7BC4F7A11E8EC51000049B50 /* Objects */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		7BC4F7991E8EC51000049B50 /* BaseCharacteristic */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F79A1E8EC51000049B50 /* BLEBaseCharacteristic.h */,
+				7BC4F79B1E8EC51000049B50 /* BLEBaseCharacteristic.m */,
+			);
+			path = BaseCharacteristic;
+			sourceTree = "<group>";
+		};
+		7BC4F79C1E8EC51000049B50 /* BlockLinker */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F79D1E8EC51000049B50 /* BLEDataServiceBlockLinker.h */,
+				7BC4F79E1E8EC51000049B50 /* BLEDataServiceBlockLinker.m */,
+				7BC4F79F1E8EC51000049B50 /* BLEDataServiceNotifyLinker.h */,
+				7BC4F7A01E8EC51000049B50 /* BLEDataServiceNotifyLinker.m */,
+			);
+			path = BlockLinker;
+			sourceTree = "<group>";
+		};
+		7BC4F7A11E8EC51000049B50 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7A21E8EC51000049B50 /* DayDetail */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		7BC4F7A21E8EC51000049B50 /* DayDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7A31E8EC51000049B50 /* DayDetail.h */,
+				7BC4F7A41E8EC51000049B50 /* DayDetail.m */,
+				7BC4F7A51E8EC51000049B50 /* HourDetail.h */,
+				7BC4F7A61E8EC51000049B50 /* HourDetail.m */,
+				7BC4F7A71E8EC51000049B50 /* IntervalDetail.h */,
+				7BC4F7A81E8EC51000049B50 /* IntervalDetail.m */,
+			);
+			path = DayDetail;
+			sourceTree = "<group>";
+		};
+		7BC4F7A91E8EC51000049B50 /* NetService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetService;
+			sourceTree = "<group>";
+		};
+		7BC4F7AA1E8EC51000049B50 /* SyncService */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7AB1E8EC51000049B50 /* SyncService.h */,
+				7BC4F7AC1E8EC51000049B50 /* SyncService.m */,
 			);
 			path = SyncService;
 			sourceTree = "<group>";
 		};
-		7BB3F4931E83C92E00E9DB64 /* Services */ = {
+		7BC4F7AD1E8EC51000049B50 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F48F1E83C92E00E9DB64 /* BLE */,
-				7BB3F4921E83C92E00E9DB64 /* SyncService */,
+				7BC4F7AE1E8EC51000049B50 /* Categories */,
+				7BC4F7BC1E8EC51000049B50 /* Constants */,
+				7BC4F7BF1E8EC51000049B50 /* Libs */,
 			);
-			name = Services;
-			path = ../../../../../../xcodeworkspace/B_IMLHeartRate/IMLHeartRate/Services;
+			path = Support;
 			sourceTree = "<group>";
 		};
-		7BB3F4961E83C92E00E9DB64 /* Array */ = {
+		7BC4F7AE1E8EC51000049B50 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4941E83C92E00E9DB64 /* NSArray+Filter.h */,
-				7BB3F4951E83C92E00E9DB64 /* NSArray+Filter.m */,
-			);
-			path = Array;
-			sourceTree = "<group>";
-		};
-		7BB3F49D1E83C92E00E9DB64 /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4971E83C92E00E9DB64 /* NSDate+Utilities.h */,
-				7BB3F4981E83C92E00E9DB64 /* NSDate+Utilities.m */,
-				7BB3F4991E83C92E00E9DB64 /* NSDateFormatter+Utilities.h */,
-				7BB3F49A1E83C92E00E9DB64 /* NSDateFormatter+Utilities.m */,
-				7BB3F49B1E83C92E00E9DB64 /* NSTimeZone+Offset.h */,
-				7BB3F49C1E83C92E00E9DB64 /* NSTimeZone+Offset.m */,
-			);
-			path = Date;
-			sourceTree = "<group>";
-		};
-		7BB3F4A01E83C92E00E9DB64 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F49E1E83C92E00E9DB64 /* NSError+app.h */,
-				7BB3F49F1E83C92E00E9DB64 /* NSError+app.m */,
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		7BB3F4A11E83C92E00E9DB64 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4961E83C92E00E9DB64 /* Array */,
-				7BB3F49D1E83C92E00E9DB64 /* Date */,
-				7BB3F4A01E83C92E00E9DB64 /* Error */,
+				7BC4F7AF1E8EC51000049B50 /* Array */,
+				7BC4F7B21E8EC51000049B50 /* Date */,
+				7BC4F7B91E8EC51000049B50 /* Error */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		7BB3F4A41E83C92E00E9DB64 /* Constants */ = {
+		7BC4F7AF1E8EC51000049B50 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4A21E83C92E00E9DB64 /* Configurations.h */,
-				7BB3F4A31E83C92E00E9DB64 /* Configurations.m */,
+				7BC4F7B01E8EC51000049B50 /* NSArray+Filter.h */,
+				7BC4F7B11E8EC51000049B50 /* NSArray+Filter.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		7BC4F7B21E8EC51000049B50 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7B31E8EC51000049B50 /* NSDate+Utilities.h */,
+				7BC4F7B41E8EC51000049B50 /* NSDate+Utilities.m */,
+				7BC4F7B51E8EC51000049B50 /* NSDateFormatter+Utilities.h */,
+				7BC4F7B61E8EC51000049B50 /* NSDateFormatter+Utilities.m */,
+				7BC4F7B71E8EC51000049B50 /* NSTimeZone+Offset.h */,
+				7BC4F7B81E8EC51000049B50 /* NSTimeZone+Offset.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		7BC4F7B91E8EC51000049B50 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7BA1E8EC51000049B50 /* NSError+app.h */,
+				7BC4F7BB1E8EC51000049B50 /* NSError+app.m */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		7BC4F7BC1E8EC51000049B50 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7BD1E8EC51000049B50 /* Configurations.h */,
+				7BC4F7BE1E8EC51000049B50 /* Configurations.m */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		7BB3F4A71E83C92E00E9DB64 /* MSWeakTimer */ = {
+		7BC4F7BF1E8EC51000049B50 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4A51E83C92E00E9DB64 /* MSWeakTimer.h */,
-				7BB3F4A61E83C92E00E9DB64 /* MSWeakTimer.m */,
-			);
-			path = MSWeakTimer;
-			sourceTree = "<group>";
-		};
-		7BB3F4BB1E83C92E00E9DB64 /* YmsCoreBluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4A81E83C92E00E9DB64 /* NSMutableArray+fifoQueue.h */,
-				7BB3F4A91E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m */,
-				7BB3F4AA1E83C92E00E9DB64 /* YMS128.c */,
-				7BB3F4AB1E83C92E00E9DB64 /* YMS128.h */,
-				7BB3F4AC1E83C92E00E9DB64 /* YMSCBCentralManager.h */,
-				7BB3F4AD1E83C92E00E9DB64 /* YMSCBCentralManager.m */,
-				7BB3F4AE1E83C92E00E9DB64 /* YMSCBCharacteristic.h */,
-				7BB3F4AF1E83C92E00E9DB64 /* YMSCBCharacteristic.m */,
-				7BB3F4B01E83C92E00E9DB64 /* YMSCBDescriptor.h */,
-				7BB3F4B11E83C92E00E9DB64 /* YMSCBDescriptor.m */,
-				7BB3F4B21E83C92E00E9DB64 /* YMSCBLE.h */,
-				7BB3F4B31E83C92E00E9DB64 /* YMSCBPeripheral.h */,
-				7BB3F4B41E83C92E00E9DB64 /* YMSCBPeripheral.m */,
-				7BB3F4B51E83C92E00E9DB64 /* YMSCBService.h */,
-				7BB3F4B61E83C92E00E9DB64 /* YMSCBService.m */,
-				7BB3F4B71E83C92E00E9DB64 /* YMSCBStoredPeripherals.h */,
-				7BB3F4B81E83C92E00E9DB64 /* YMSCBStoredPeripherals.m */,
-				7BB3F4B91E83C92E00E9DB64 /* YMSCBUtils.h */,
-				7BB3F4BA1E83C92E00E9DB64 /* YMSCBUtils.m */,
-			);
-			path = YmsCoreBluetooth;
-			sourceTree = "<group>";
-		};
-		7BB3F4BC1E83C92E00E9DB64 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				7BB3F4A71E83C92E00E9DB64 /* MSWeakTimer */,
-				7BB3F4BB1E83C92E00E9DB64 /* YmsCoreBluetooth */,
+				7BC4F7C01E8EC51000049B50 /* MSWeakTimer */,
+				7BC4F7C31E8EC51000049B50 /* YmsCoreBluetooth */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
 		};
-		7BB3F4BD1E83C92E00E9DB64 /* Support */ = {
+		7BC4F7C01E8EC51000049B50 /* MSWeakTimer */ = {
 			isa = PBXGroup;
 			children = (
-				7BB3F4A11E83C92E00E9DB64 /* Categories */,
-				7BB3F4A41E83C92E00E9DB64 /* Constants */,
-				7BB3F4BC1E83C92E00E9DB64 /* Libs */,
+				7BC4F7C11E8EC51000049B50 /* MSWeakTimer.h */,
+				7BC4F7C21E8EC51000049B50 /* MSWeakTimer.m */,
 			);
-			name = Support;
-			path = ../../../../../../xcodeworkspace/B_IMLHeartRate/IMLHeartRate/Support;
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		7BC4F7C31E8EC51000049B50 /* YmsCoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				7BC4F7C41E8EC51000049B50 /* NSMutableArray+fifoQueue.h */,
+				7BC4F7C51E8EC51000049B50 /* NSMutableArray+fifoQueue.m */,
+				7BC4F7C61E8EC51000049B50 /* YMS128.c */,
+				7BC4F7C71E8EC51000049B50 /* YMS128.h */,
+				7BC4F7C81E8EC51000049B50 /* YMSCBCentralManager.h */,
+				7BC4F7C91E8EC51000049B50 /* YMSCBCentralManager.m */,
+				7BC4F7CA1E8EC51000049B50 /* YMSCBCharacteristic.h */,
+				7BC4F7CB1E8EC51000049B50 /* YMSCBCharacteristic.m */,
+				7BC4F7CC1E8EC51000049B50 /* YMSCBDescriptor.h */,
+				7BC4F7CD1E8EC51000049B50 /* YMSCBDescriptor.m */,
+				7BC4F7CE1E8EC51000049B50 /* YMSCBLE.h */,
+				7BC4F7CF1E8EC51000049B50 /* YMSCBPeripheral.h */,
+				7BC4F7D01E8EC51000049B50 /* YMSCBPeripheral.m */,
+				7BC4F7D11E8EC51000049B50 /* YMSCBService.h */,
+				7BC4F7D21E8EC51000049B50 /* YMSCBService.m */,
+				7BC4F7D31E8EC51000049B50 /* YMSCBStoredPeripherals.h */,
+				7BC4F7D41E8EC51000049B50 /* YMSCBStoredPeripherals.m */,
+				7BC4F7D51E8EC51000049B50 /* YMSCBUtils.h */,
+				7BC4F7D61E8EC51000049B50 /* YMSCBUtils.m */,
+			);
+			path = YmsCoreBluetooth;
 			sourceTree = "<group>";
 		};
 		E6434ABB1AE9A320753D0C5E /* Pods */ = {
@@ -724,45 +696,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB3F4E01E83C92E00E9DB64 /* NSDateFormatter+Utilities.m in Sources */,
-				7BB3F4D21E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m in Sources */,
+				7BC4F7E81E8EC51000049B50 /* NSDateFormatter+Utilities.m in Sources */,
+				7BC4F7E11E8EC51000049B50 /* BLEDataServiceNotifyLinker.m in Sources */,
 				7B0A2F761E46853B003B0F60 /* DDLog.m in Sources */,
-				7BB3F4BE1E83C92E00E9DB64 /* UserObject.m in Sources */,
-				7BB3F4EE1E83C92E00E9DB64 /* YMSCBCentralManager.m in Sources */,
-				7BB3F4C21E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m in Sources */,
-				7BB3F4DE1E83C92E00E9DB64 /* NSDate+Utilities.m in Sources */,
-				7BB3F4F61E83C92E00E9DB64 /* YMSCBService.m in Sources */,
-				7BB3F4DC1E83C92E00E9DB64 /* NSArray+Filter.m in Sources */,
-				7BB3F4CA1E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m in Sources */,
+				7BC4F7D71E8EC51000049B50 /* UserObject.m in Sources */,
+				7BC4F7EF1E8EC51000049B50 /* YMSCBCentralManager.m in Sources */,
+				7BC4F7D91E8EC51000049B50 /* BLEDevice+ReadWriteData.m in Sources */,
+				7BC4F7E71E8EC51000049B50 /* NSDate+Utilities.m in Sources */,
+				7BC4F7F31E8EC51000049B50 /* YMSCBService.m in Sources */,
+				7BC4F7E61E8EC51000049B50 /* NSArray+Filter.m in Sources */,
+				7BC4F7DD1E8EC51000049B50 /* BLEDataWriteCharacteristic.m in Sources */,
 				7B0A2F771E46853B003B0F60 /* DDTTYLogger.m in Sources */,
-				7BB3F4E61E83C92E00E9DB64 /* Configurations.m in Sources */,
-				7BB3F4CC1E83C92E00E9DB64 /* BLEManager.m in Sources */,
-				7BB3F4C01E83C92E00E9DB64 /* BLEWrapper.m in Sources */,
+				7BC4F7EB1E8EC51000049B50 /* Configurations.m in Sources */,
+				7BC4F7DE1E8EC51000049B50 /* BLEManager.m in Sources */,
+				7BC4F7D81E8EC51000049B50 /* BLEWrapper.m in Sources */,
 				5401E0211A93DA2600FADC22 /* AppDelegate.m in Sources */,
-				7BB3F4EC1E83C92E00E9DB64 /* YMS128.c in Sources */,
+				7BC4F7EE1E8EC51000049B50 /* YMS128.c in Sources */,
 				7B0A2F751E46853B003B0F60 /* DDFileLogger.m in Sources */,
-				7BB3F4F21E83C92E00E9DB64 /* YMSCBDescriptor.m in Sources */,
+				7BC4F7F11E8EC51000049B50 /* YMSCBDescriptor.m in Sources */,
 				5401E01E1A93DA2600FADC22 /* main.m in Sources */,
-				7BB3F4D61E83C92E00E9DB64 /* HourDetail.m in Sources */,
-				7BB3F4D41E83C92E00E9DB64 /* DayDetail.m in Sources */,
-				7BB3F4D81E83C92E00E9DB64 /* IntervalDetail.m in Sources */,
-				7BB3F4C81E83C92E00E9DB64 /* BLEDataReadCharacteristic.m in Sources */,
-				7BB3F4F41E83C92E00E9DB64 /* YMSCBPeripheral.m in Sources */,
-				7BB3F4FA1E83C92E00E9DB64 /* YMSCBUtils.m in Sources */,
-				7BB3F4E81E83C92E00E9DB64 /* MSWeakTimer.m in Sources */,
-				7BB3F4CE1E83C92E00E9DB64 /* BLEBaseCharacteristic.m in Sources */,
-				7BB3F4F01E83C92E00E9DB64 /* YMSCBCharacteristic.m in Sources */,
-				7BB3F4E41E83C92E00E9DB64 /* NSError+app.m in Sources */,
-				7BB3F4D01E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m in Sources */,
-				7BB3F4F81E83C92E00E9DB64 /* YMSCBStoredPeripherals.m in Sources */,
+				7BC4F7E31E8EC51000049B50 /* HourDetail.m in Sources */,
+				7BC4F7E21E8EC51000049B50 /* DayDetail.m in Sources */,
+				7BC4F7E41E8EC51000049B50 /* IntervalDetail.m in Sources */,
+				7BC4F7DC1E8EC51000049B50 /* BLEDataReadCharacteristic.m in Sources */,
+				7BC4F7F21E8EC51000049B50 /* YMSCBPeripheral.m in Sources */,
+				7BC4F7F51E8EC51000049B50 /* YMSCBUtils.m in Sources */,
+				7BC4F7EC1E8EC51000049B50 /* MSWeakTimer.m in Sources */,
+				7BC4F7DF1E8EC51000049B50 /* BLEBaseCharacteristic.m in Sources */,
+				7BC4F7F01E8EC51000049B50 /* YMSCBCharacteristic.m in Sources */,
+				7BC4F7EA1E8EC51000049B50 /* NSError+app.m in Sources */,
+				7BC4F7E01E8EC51000049B50 /* BLEDataServiceBlockLinker.m in Sources */,
+				7BC4F7F41E8EC51000049B50 /* YMSCBStoredPeripherals.m in Sources */,
 				7B0A2F731E46853B003B0F60 /* DDAbstractDatabaseLogger.m in Sources */,
-				7BB3F4C41E83C92E00E9DB64 /* BLEDevice.m in Sources */,
+				7BC4F7DA1E8EC51000049B50 /* BLEDevice.m in Sources */,
 				3BA945851BB0A95000AD1F8F /* SimpleController.m in Sources */,
-				7BB3F4E21E83C92E00E9DB64 /* NSTimeZone+Offset.m in Sources */,
-				7BB3F4DA1E83C92E00E9DB64 /* SyncService.m in Sources */,
+				7BC4F7E91E8EC51000049B50 /* NSTimeZone+Offset.m in Sources */,
+				7BC4F7E51E8EC51000049B50 /* SyncService.m in Sources */,
 				7B0A2F741E46853B003B0F60 /* DDASLLogger.m in Sources */,
-				7BB3F4EA1E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m in Sources */,
-				7BB3F4C61E83C92E00E9DB64 /* BLEDataService.m in Sources */,
+				7BC4F7ED1E8EC51000049B50 /* NSMutableArray+fifoQueue.m in Sources */,
+				7BC4F7DB1E8EC51000049B50 /* BLEDataService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,38 +742,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB3F4E71E83C92E00E9DB64 /* Configurations.m in Sources */,
-				7BB3F4CB1E83C92E00E9DB64 /* BLEDataWriteCharacteristic.m in Sources */,
-				7BB3F4E91E83C92E00E9DB64 /* MSWeakTimer.m in Sources */,
-				7BB3F4DD1E83C92E00E9DB64 /* NSArray+Filter.m in Sources */,
-				7BB3F4F51E83C92E00E9DB64 /* YMSCBPeripheral.m in Sources */,
-				7BB3F4F11E83C92E00E9DB64 /* YMSCBCharacteristic.m in Sources */,
-				7BB3F4D91E83C92E00E9DB64 /* IntervalDetail.m in Sources */,
-				7BB3F4CF1E83C92E00E9DB64 /* BLEBaseCharacteristic.m in Sources */,
-				7BB3F4C11E83C92E00E9DB64 /* BLEWrapper.m in Sources */,
-				7BB3F4E51E83C92E00E9DB64 /* NSError+app.m in Sources */,
-				7BB3F4F31E83C92E00E9DB64 /* YMSCBDescriptor.m in Sources */,
-				7BB3F4CD1E83C92E00E9DB64 /* BLEManager.m in Sources */,
-				7BB3F4F91E83C92E00E9DB64 /* YMSCBStoredPeripherals.m in Sources */,
-				7BB3F4D71E83C92E00E9DB64 /* HourDetail.m in Sources */,
-				7BB3F4DB1E83C92E00E9DB64 /* SyncService.m in Sources */,
-				7BB3F4EB1E83C92E00E9DB64 /* NSMutableArray+fifoQueue.m in Sources */,
-				7BB3F4E31E83C92E00E9DB64 /* NSTimeZone+Offset.m in Sources */,
-				7BB3F4C91E83C92E00E9DB64 /* BLEDataReadCharacteristic.m in Sources */,
-				7BB3F4ED1E83C92E00E9DB64 /* YMS128.c in Sources */,
-				7BB3F4F71E83C92E00E9DB64 /* YMSCBService.m in Sources */,
-				7BB3F4C71E83C92E00E9DB64 /* BLEDataService.m in Sources */,
-				7BB3F4D11E83C92E00E9DB64 /* BLEDataServiceBlockLinker.m in Sources */,
-				7BB3F4FB1E83C92E00E9DB64 /* YMSCBUtils.m in Sources */,
-				7BB3F4C51E83C92E00E9DB64 /* BLEDevice.m in Sources */,
 				5401E0381A93DA2600FADC22 /* Hackathon2017Tests.m in Sources */,
-				7BB3F4DF1E83C92E00E9DB64 /* NSDate+Utilities.m in Sources */,
-				7BB3F4EF1E83C92E00E9DB64 /* YMSCBCentralManager.m in Sources */,
-				7BB3F4D51E83C92E00E9DB64 /* DayDetail.m in Sources */,
-				7BB3F4BF1E83C92E00E9DB64 /* UserObject.m in Sources */,
-				7BB3F4C31E83C92E00E9DB64 /* BLEDevice+ReadWriteData.m in Sources */,
-				7BB3F4D31E83C92E00E9DB64 /* BLEDataServiceNotifyLinker.m in Sources */,
-				7BB3F4E11E83C92E00E9DB64 /* NSDateFormatter+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
