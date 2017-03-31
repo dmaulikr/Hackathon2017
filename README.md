@@ -3,4 +3,50 @@ This repository is meant for the health case (stress prevention). It provides so
 
 Please use the code at your own risk and as mentioned it is very basic, so it is only to help you get started. 
 
-Good luck!
+Good luck
+
+
+For HTTP Calls
+
+- (void) sendDataOverHttp:(NSString*) jsonRequest{
+        
+            NSURL *url = [NSURL URLWithString:@"https://iotmms<account>.hanatrial.ondemand.com/com.sap.iotservices.mms/v1/api/http/data/<device id>"];
+        
+            NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
+                                                                   cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
+        
+        
+            NSData *requestData = [jsonRequest dataUsingEncoding:NSUTF8StringEncoding];
+        
+            [request setHTTPMethod:@"POST"];
+            [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+            [request setValue:@"Bearer <oath token>" forHTTPHeaderField:@"Authorization"];
+            [request setValue:@"application/json;charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+            [request setHTTPBody: requestData];
+    
+//            if (!httpDataSending){
+//                httpDataSending = true;
+
+                [NSURLConnection sendAsynchronousRequest:request
+                                                   queue:[NSOperationQueue mainQueue]
+                                       completionHandler:^(NSURLResponse *response,
+                                                           NSData *data, NSError *connectionError)
+                 {
+                     if (data.length > 0 && connectionError == nil)
+                     {
+                         //NSLog(@"REST Call Server Response is %@", response);
+//                         [NSTimer scheduledTimerWithTimeInterval:0.1
+//                                                          target:self
+//                                                        selector:@selector(setHttpDataSendFinishedAfterDelay:)
+//                                                        userInfo:nil
+//                                                         repeats:NO];
+                     }else{
+                         NSLog(@"REST Call Error is %@", connectionError.description);
+
+                     }
+                 }];
+//                httpDataSending = true;
+//        
+//            }
+
+}
